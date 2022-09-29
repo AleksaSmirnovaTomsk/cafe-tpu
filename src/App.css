@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Intro';
+    src: url(./fonts/intro_bold.ttf);
+    font-weight: 400;
+}
+
+li {
+    font-family: 'Intro';
+    font-weight: bold;
+    display: block;
+    list-style-type: none;
+    cursor: pointer;
+} 
+li:hover {
+    opacity: 70%;
+}
+
+.App {
+    text-align: center; 
+}
+
+.App-header {
+    position: relative;
+    background-color: #119b15;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: white;
+}
+
+.App-link {
+    left: 7vw;
+    position: absolute;
+    display: block;
+}
+
+.App-logo {
+    display: block;
+    max-height: 40px;
+}
+
+.App-nav {
+    margin: 0;
+    margin-left: 500px;
+    padding: 0;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}

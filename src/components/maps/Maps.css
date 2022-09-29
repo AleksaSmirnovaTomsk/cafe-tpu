@@ -1,0 +1,32 @@
+.Maps-layer{
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:antiquewhite;
+    
+}
+.Maps-layer p {
+    margin-bottom: 0;
+    font-family: 'Intro';
+    font-size: 30px;
+    color: #000;
+}
+.Maps-layer img {
+    width: 30%;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.Maps-layer p + p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(95, 95, 95);
+}
+
+.Maps-layer img:hover {
+    width: 40%;
+}

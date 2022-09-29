@@ -1,0 +1,13 @@
+.Record-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 650px;
+    background: url('../../images/couple.jpg') center center/cover no-repeat
+}
+
+.Record-booking {
+    margin-left: 50px;
+    width: 600px;
+    background-color: rgb(0, 0, 0, 0.2);
+}

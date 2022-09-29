@@ -1,0 +1,50 @@
+.Nav-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Nav-elem {
+    height: 42vh;
+    position: relative;
+    text-align: -webkit-center;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+
+.Nav-elem:hover {
+    opacity: 70%;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;	
+    height: inherit;
+}
+
+h2 {
+    width: 30%;
+    color: #FFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Intro';
+    letter-spacing: -0.025em;
+    text-transform: uppercase;
+}
+
+.Nav-h2-menu {
+    background-color: #88c23f;
+}
+
+.Nav-h2-sale {
+    background-color: blue;
+    width: 50%;
+}
+
+.Nav-h2-loc {
+    width: 45%;
+    background-color: rgb(29, 133, 252);
+}

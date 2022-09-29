@@ -1,0 +1,23 @@
+* {
+    font-family: 'Intro';
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+    font-weight: 100;
+}
+
+.Desc-area {
+    display: flex;
+    height: 500px;
+    background-color: #119b15;
+    justify-content: center;
+    align-items: center;
+}
+
+.Desc-container {
+    width: 900px;
+}

@@ -1,0 +1,40 @@
+.Footer-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+.Footer-area p {
+    margin: 0;
+}
+
+.Footer-booking {
+    width: 50%;
+    display: flex;
+    justify-content: center
+}
+
+.Footer-booking a {
+    margin-right: 20px;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.Footer-round {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-round img {
+    display: block;
+    height: 70%;
+    width: 70%;
+}
