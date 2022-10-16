@@ -16,7 +16,7 @@ li:hover {
 }
 
 .App {
-    text-align: center; 
+    text-align: center;
 }
 
 .App-header {
@@ -27,7 +27,6 @@ li:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 1vmin);
     color: white;
 }
 
@@ -48,5 +47,5 @@ li:hover {
     padding: 0;
     width: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }

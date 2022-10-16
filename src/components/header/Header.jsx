@@ -1,27 +1,36 @@
-import logo from '../../images/logo.jpg'
+import logo from "../../images/logo.jpg";
 
-const Header = () => {
-    return (
-        <> 
-            <a
-                className="App-link"
-                href="https://vk.com/alex_vnrms"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <img className='App-logo' src={logo} alt="logo" />
+const Header = ({ setActive }) => {
+  return (
+    <>
+      <a
+        className="App-link"
+        href="https://vk.com/alex_vnrms"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img className="App-logo" src={logo} alt="logo" />
+      </a>
+      <nav>
+        <ol className="App-nav">
+          <li onClick={() => setActive("menu-active")}>Меню</li>
+          <li>
+            <a style={{ textDecoration: "none", color: "white" }} href="#Maps">
+              Локация
             </a>
-            <nav>
-                <ol className='App-nav'>
-                    <li>История создания</li>
-                    <li>Меню</li>
-                    <li>Локация</li>
-                    <li>Заказать</li>
-                    <li>О нас</li>
-                </ol>
-            </nav>
-        </>
-    )
-}
+          </li>
+          <li>
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="tel:+1234567890"
+            >
+              Связаться
+            </a>
+          </li>
+        </ol>
+      </nav>
+    </>
+  );
+};
 
-export default Header
+export default Header;

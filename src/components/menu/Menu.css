@@ -1,0 +1,48 @@
+.menu-container {
+  display: none;
+  position: fixed;
+  height: 90vh;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(251 196 146);
+  z-index: 999;
+}
+
+.menu-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-elem {
+  margin-top: 15px;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-elem > img {
+  height: 100px;
+  width: 20%;
+}
+
+.menu-total {
+  height: 70px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-elem-descr {
+  width: 30%;
+}
+
+.CloseButton {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}

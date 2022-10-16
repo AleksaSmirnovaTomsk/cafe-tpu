@@ -1,6 +1,5 @@
 * {
     font-family: 'Intro';
-    color: white;
 }
 
 h1 {
@@ -11,6 +10,7 @@ h1 {
 }
 
 .Desc-area {
+    color: white;
     display: flex;
     height: 500px;
     background-color: #119b15;

@@ -1,0 +1,37 @@
+.form-container {
+  position: relative;
+  display: none;
+  position: fixed;
+  height: 50vh;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(251 196 146);
+  z-index: 999;
+}
+
+.active-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-data {
+  display: flex;
+  flex-direction: column;
+}
+
+i {
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 30px;
+}
+
+.left {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  -webkit-transform: rotate(135deg);
+}

@@ -1,0 +1,17 @@
+.succ-container {
+  display: none;
+  position: fixed;
+  height: 30vh;
+  width: 430px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(251 196 146);
+  z-index: 999;
+}
+
+.succ-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
